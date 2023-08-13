@@ -1,0 +1,12 @@
+.sliderButton::-webkit-slider-thumb{
+    width: 0;
+    height: 0;
+    display: flex;
+    appearance: none;
+}
+.sliderButton:hover::-webkit-slider-thumb{
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: currentColor;
+}
